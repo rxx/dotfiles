@@ -7,7 +7,9 @@
   grep = auto
   showbranch = auto
 [push]
-  default = current
+  default = simple
+  followTags = true
+  autoSetupRemote = true
 [user]
   name = Maksym Litvynov
   email = 1058433+rxx@users.noreply.github.com
@@ -26,3 +28,8 @@
   ci = commit
 [help]
   autocorrect = 1
+[init]
+  defaultBranch = main
+[branch]
+  # Show most recently changed branches first.
+  sort = -committerdate
