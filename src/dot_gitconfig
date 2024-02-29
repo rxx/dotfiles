@@ -1,0 +1,28 @@
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+  ui = true
+  grep = auto
+  showbranch = auto
+[push]
+  default = current
+[user]
+  name = Maksym Litvynov
+  email = 1058433+rxx@users.noreply.github.com
+[core]
+  editor    = vim
+[merge]
+  no-ff = true
+[pull]
+  rebase    = true
+[github]
+  user = rxx
+[alias]
+  br = branch
+  st = status
+  co = checkout
+  ci = commit
+[help]
+  autocorrect = 1
