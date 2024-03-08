@@ -8,9 +8,9 @@ abbr --add vim nvim
 abbr --add vi nvim
 
 # Chezmai Dotfiles
-abbr --add d chezmoi 
-abbr --add dedit chezmoi --edit --apply
-abbr --add freload source ~/.config/fish/config.fish
+abbr --add c chezmoi 
+abbr --add cedit chezmoi edit --apply
+abbr --add ff source ~/.config/fish/config.fish
 
 # Git
 abbr --add g git
