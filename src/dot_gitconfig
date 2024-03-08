@@ -15,7 +15,7 @@
   email = 1058433+rxx@users.noreply.github.com
 	signingkey = /home/user/.ssh/id_ed25519.pub
 [core]
-  editor    = vim
+  editor    = nvim
 [merge]
   no-ff = true
 [pull]

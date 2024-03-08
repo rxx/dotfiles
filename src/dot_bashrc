@@ -3,8 +3,8 @@ export EDITOR='nvim'
 alias vim="nvim"
 alias vi="nvim"
 
-alias zreload="source ~/.zshrc"
-alias zconfig="vim ~/.zshrc"
+alias zreload="source ~/.bashrc"
+alias zconfig="vim ~/.bashrc"
 
 # Git
 alias g="git"
