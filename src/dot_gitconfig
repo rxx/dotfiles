@@ -13,6 +13,7 @@
 [user]
   name = Maksym Litvynov
   email = 1058433+rxx@users.noreply.github.com
+	signingkey = /home/user/.ssh/id_ed25519.pub
 [core]
   editor    = vim
 [merge]
@@ -33,3 +34,7 @@
 [branch]
   # Show most recently changed branches first.
   sort = -committerdate
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
