@@ -47,6 +47,9 @@ abbr --add mr mise --run --
 
 zoxide init fish | source
 starship init fish | source
-$HOME/bin/mise activate fish | source
 
 fish_add_path -g $HOME/.cargo/bin
+
+$HOME/bin/mise activate fish | source
+
+string match -q "$TERM_PROGRAM" "vscode" and . (code --locate-shell-integration-path fish)

@@ -1,0 +1,29 @@
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 16,
+    "editor.rulers": [
+        150
+    ],
+    "workbench.tree.indent": 20,
+    "ruby.useLanguageServer": true,
+    "ruby.lint": {
+        "rubocop": {
+            "useBundler": true // enable rubocop via bundler
+        }
+    },
+    "ruby.format": "rubocop",
+    "editor.linkedEditing": true,
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "redhat.telemetry.enabled": false,
+    "editor.fontFamily": "'JetBrains Mono Nerd Font', 'monospace', monospace",
+    "editor.fontLigatures": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "explorer.confirmDelete": false,
+    "git.enableSmartCommit": true,
+    "explorer.confirmDragAndDrop": false // use rubocop for formatting
+}
