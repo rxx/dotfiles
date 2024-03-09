@@ -2,6 +2,8 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+set -U fish_greeting
+
 # Editor Neo Vim
 set -gx EDITOR nvim
 abbr --add vim nvim
@@ -52,4 +54,4 @@ fish_add_path -g $HOME/.cargo/bin
 
 $HOME/bin/mise activate fish | source
 
-string match -q "$TERM_PROGRAM" "vscode" and . (code --locate-shell-integration-path fish)
+# string match -q "$TERM_PROGRAM" "vscode" and . (code --locate-shell-integration-path fish)
