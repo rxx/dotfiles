@@ -36,3 +36,16 @@ abbr --add gl git pull
 abbr --add gup git pull --rebase 
 
 abbr --add dni sudo dnf install -y 
+
+# Rust tools aliases
+abbr --add ls lsd
+abbr --add cat bat
+
+abbr --add mx mise --exec --
+abbr --add mr mise --run --
+
+zoxide init fish | source
+starship init fish | source
+$HOME/bin/mise activate fish | source
+
+fish_add_path -g $HOME/.cargo/bin
