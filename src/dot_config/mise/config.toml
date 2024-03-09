@@ -1,5 +1,5 @@
 [tools]
-python = "latest"
-node = "20"
-go = "latest"
+python = "3.12"
+node = "20.11"
+go = "1.22"
 ruby = "3.2"

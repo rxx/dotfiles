@@ -25,6 +25,7 @@ abbr --add gf git fetch -p
 abbr --add gco git checkout 
 abbr --add gcob git checkout -b 
 abbr --add gcm git checkout main 
+abbr --add gp git push
 abbr --add gpu git push -u 
 abbr --add gpf git push -f 
 abbr --add glp git log -p
