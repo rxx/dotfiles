@@ -9,7 +9,12 @@ abbr --add ff source ~/.config/fish/config.fish
 abbr --add zconfig chezmoi edit --apply ~/.config/fish/config.fish
 
 # Rust tools aliases
-abbr --add ls lsd
+
+## lsd
+abbr --add ls lsd -F
+abbr --add ll lsd -lF
+abbr --add tree lsd --tree
+
 abbr --add cat bat
 
 # Mise
