@@ -16,6 +16,7 @@ abbr --add ll lsd -laF
 abbr --add tree lsd --tree
 
 abbr --add cat bat
+abbr --add top btm
 
 # Mise
 abbr --add mx mise exec --
