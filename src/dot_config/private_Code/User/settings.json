@@ -39,4 +39,5 @@
     "gitlens.telemetry.enabled": false,
     "code-runner.enableAppInsights": false,
     "telemetry.telemetryLevel": "off",
+    "workbench.colorTheme": "Tokyo Night",
 }
