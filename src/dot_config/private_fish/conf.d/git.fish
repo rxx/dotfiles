@@ -70,3 +70,6 @@ abbr --add grbs git rebase --skip
 
 # Abort an ongoing rebase 
 abbr --add grba git rebase --abort 
+
+# LazyGit
+abbr --add lg lazygit
