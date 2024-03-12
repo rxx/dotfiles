@@ -32,6 +32,9 @@
         "rust/calculator/Cargo.toml",
         "rust/Guessing-Game/Cargo.toml",
     ],
+    "go.alternateTools": {
+        "go": "~/.local/share/mise/shims",
+     },
     "redhat.telemetry.enabled": false,
     "gitlens.telemetry.enabled": false,
     "code-runner.enableAppInsights": false,
