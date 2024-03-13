@@ -32,3 +32,5 @@ alias gl="git pull"
 alias gup="git pull --rebase"
 
 alias dni="sudo dnf install -y"
+
+eval "$(~/bin/mise activate zsh)"
