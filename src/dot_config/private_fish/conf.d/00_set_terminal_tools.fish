@@ -18,15 +18,12 @@ abbr --add tree lsd --tree
 abbr --add cat bat
 abbr --add top btm
 
-# Cargo
-abbr --add ct "cargo test"
-
 # Mise
 abbr --add mx mise exec --
 abbr --add mr mise run --
 
 # Bash fast call
-abbr --add b bash
+abbr --add ba bash
 
 abbr -a - "cd -"
 abbr -a ".." "cd .."
