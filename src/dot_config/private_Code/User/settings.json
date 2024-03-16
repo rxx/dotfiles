@@ -11,7 +11,7 @@
     ],
     "workbench.tree.indent": 20,
     "workbench.iconTheme": "vscode-icons",
-    "vsicons.dontShowNewVersionMessage": true,    
+    "vsicons.dontShowNewVersionMessage": true,
     "git.confirmSync": false,
     "git.autofetch": true,
     "git.enableSmartCommit": true,
@@ -40,4 +40,7 @@
     "code-runner.enableAppInsights": false,
     "telemetry.telemetryLevel": "off",
     "workbench.colorTheme": "Tokyo Night",
+    "editor.guides.bracketPairs": true,
+    "editor.renderWhitespace": "all",
+    "files.trimTrailingWhitespace": true,
 }

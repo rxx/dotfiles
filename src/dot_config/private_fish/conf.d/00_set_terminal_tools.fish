@@ -4,7 +4,7 @@ abbr --add vim nvim
 abbr --add vi nvim
 
 # Chezmai Dotfiles
-abbr --add c chezmoi 
+abbr --add c chezmoi
 abbr --add ff source ~/.config/fish/config.fish
 abbr --add zconfig chezmoi edit --apply ~/.config/fish/conf.d/
 
@@ -18,6 +18,9 @@ abbr --add tree lsd --tree
 abbr --add cat bat
 abbr --add top btm
 
+# Cargo
+abbr --add ct "cargo test"
+
 # Mise
 abbr --add mx mise exec --
 abbr --add mr mise run --
@@ -25,9 +28,9 @@ abbr --add mr mise run --
 # Bash fast call
 abbr --add b bash
 
-abbr -a "-"    "cd -"
-abbr -a ".."   "cd .."
-abbr -a "..."  "cd ../.."
+abbr -a - "cd -"
+abbr -a ".." "cd .."
+abbr -a "..." "cd ../.."
 abbr -a "...." "cd ../../.."
 
 $HOME/bin/mise activate fish | source
