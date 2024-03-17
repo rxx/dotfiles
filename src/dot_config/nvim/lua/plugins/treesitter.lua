@@ -21,12 +21,7 @@ return {
         "ruby-lsp",
         "tsx",
         "typescript",
-        "vim",
         "yaml",
-        "sqlls",
-        "terraform-ls",
-        "tflint",
-        "prettierd",
       }
     end,
   },

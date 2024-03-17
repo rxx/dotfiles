@@ -12,10 +12,10 @@ return {
         bashls = {
           filetypes = { "sh", "zsh" },
         },
-        dockerls = {},
-        helm_ls = {},
-        jsonls = {},
-        lua_ls = {
+       -- dockerls = {},
+       -- helm_ls = {},
+      --  jsonls = {},
+       -- lua_ls = {
           Lua = {
             workspace = { checkThirdParty = false },
             telemetry = { enable = false },
@@ -51,10 +51,10 @@ return {
             },
           },
         },
-        sqlls = {},
-        terraformls = {},
-        tsserver = {},
-        yamlls = {},
+      --  sqlls = {},
+      --  terraformls = {},
+       -- tsserver = {},
+      --  yamlls = {},
       },
     },
   },
