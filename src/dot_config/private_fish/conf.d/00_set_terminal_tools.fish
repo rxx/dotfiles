@@ -3,6 +3,8 @@ set -gx EDITOR nvim
 abbr --add vim nvim
 abbr --add vi nvim
 
+abbr --add vlazy "NVIM_APPNAME=nvim_lazy nvim"
+
 # Chezmai Dotfiles
 abbr --add c chezmoi
 abbr --add ff source ~/.config/fish/config.fish
