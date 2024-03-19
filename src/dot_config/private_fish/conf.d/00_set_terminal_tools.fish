@@ -32,8 +32,9 @@ abbr -a ".." "cd .."
 abbr -a "..." "cd ../.."
 abbr -a "...." "cd ../../.."
 
-$HOME/bin/mise activate fish | source
-
-zoxide init fish | source
-
 fish_add_path -g $HOME/.local/bin
+
+$HOME/bin/mise activate fish | source
+zoxide init fish | source
+starship init fish | source
+
