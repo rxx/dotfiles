@@ -2,35 +2,111 @@
 export EDITOR='nvim'
 alias vim="nvim"
 alias vi="nvim"
+alias vim_lazy="NVIM_APPNAME=nvim_lazy nvim"
 
 alias ff="source ~/.zshrc"
 alias zconfig="chezmoi edit --apply ~/.zshrc"
+alias c="chezmoi"
 
-# Git
-alias g="git"
-alias ga="git add"
-alias gd="git diff"
-alias gdm="git diff main"
-alias gds="git diff --staged"
-alias gci="git commit -m"
-alias gaci="git commit -am"
-alias gg="git status"
-alias gf="git fetch -p"
-alias gco="git checkout"
-alias gcob="git checkout -b"
-alias gcm="git checkout main"
-alias gp="git push"
-alias gpu="git push -u"
-alias gpf="git push -f"
+## lsd
+alias ls="lsd -F"
+alias ll="lsd -laF"
+alias tree="lsd --tree"
+
+alias cat="bat"
+alias top="btm"
+
+# Base git command alias 
+alias g='git'
+
+# Add files to staging area
+alias ga='git add'
+
+# Add all files to staging area
+alias gad='git add .'
+
+# Commit with a message
+alias gci='git commit -m'
+
+# Add and commit with a message
+alias gaci='git commit -am'
+
+# Switch branches 
+alias gco='git switch'
+
+# Create a new branch and switch to it
+alias gcb='git switch -c'
+
+# Switch to the main branch
+alias gcm='git switch main' 
+
+# Restore branch
+alias gr='git restore'
+alias grs='git restore --staged'
+
+# List branches 
+alias gbr='git branch'
+
+# Show changes between commits
+alias gd='git diff'
+
+# Show changes between working tree and main branch
+alias gdm='git diff main' 
+
+# Show changes between the staging area and working tree
+alias gds='git diff --staged'
+
+# Show commit log with patches
 alias glp='git log -p'
-alias grbc="git rebase --continue"
-alias grbs="git rebase --skip"
-alias grba="git rebase --abort"
-alias gbr="git branch"
 
-alias gl="git pull"
-alias gup="git pull --rebase"
+# Show working tree status
+alias gg='git status'
+
+# Fetch and prune remote branches
+alias gf='git fetch -p'
+
+# Push to remote branch
+alias gp='git push'
+
+# Push, set upstream for the current branch
+alias gpu='git push -u' 
+
+# Force push (use with caution)
+alias gpf='git push -f'
+
+# Pull changes from remote
+alias gl='git pull'
+
+# Pull and rebase local commits on top of upstream changes
+alias gup='git pull --rebase'
+
+# Continue a rebase after resolving conflicts
+alias grbc='git rebase --continue'
+
+# Skip the current patch in a rebase
+alias grbs='git rebase --skip'
+
+# Abort an ongoing rebase 
+alias grba='git rebase --abort'
+
+# LazyGit
+alias lg='lazygit'
 
 alias dni="sudo dnf install -y"
+alias ba='bash'
+
+alias ..='cd ..'
+alias ...='cd ../..'  
+alias ....='cd ../../..'  
+
+# Zoxide setup (assuming you've installed zoxide)
+eval "$(zoxide init zsh)" 
+
+export PATH="$HOME/.cargo/bin:$HOME/.local/bin:$PATH"   # Add local bin to PATH
 
 eval "$(~/bin/mise activate zsh)"
+
+export PNPM_HOME="$HOME/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH" 
+
+eval "$(starship init zsh)"
