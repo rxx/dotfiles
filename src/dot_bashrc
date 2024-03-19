@@ -35,3 +35,11 @@ alias gup="git pull --rebase"
 alias dni="sudo dnf install -y"
 
 eval "$(~/bin/mise activate bash)"
+
+# pnpm
+export PNPM_HOME="/home/user/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
