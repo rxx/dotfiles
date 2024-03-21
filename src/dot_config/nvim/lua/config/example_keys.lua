@@ -1,3 +1,5 @@
+if true then return {} end
+
 local map = vim.keymap.set
 
 map("i", "<C-b>", "<ESC>^i", { desc = "Move Beginning of line" })
