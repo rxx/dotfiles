@@ -17,6 +17,6 @@ return {
   --  { import = "astrocommunity.pack.tailwindcss" },
   --  { import = "astrocommunity.pack.typescript" },
   -- { import = "astrocommunity.pack.html-css" },
-  { import = "astrocommunity.editing-support.auto-save-nvim" },
+  --  { import = "astrocommunity.editing-support.auto-save-nvim" },
   { import = "astrocommunity.editing-support.nvim-treesitter-endwise" },
 }
