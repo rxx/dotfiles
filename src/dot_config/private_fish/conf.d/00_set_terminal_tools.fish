@@ -38,3 +38,6 @@ $HOME/bin/mise activate fish | source
 zoxide init fish | source
 starship init fish | source
 
+abbr -a L --position anywhere "| less"
+abbr -a F --position anywhere "| fzf"
+abbr -a G --position anywhere "| grep"
