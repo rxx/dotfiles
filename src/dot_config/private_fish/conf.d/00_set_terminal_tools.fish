@@ -33,6 +33,7 @@ abbr -a "..." "cd ../.."
 abbr -a "...." "cd ../../.."
 
 fish_add_path -g $HOME/.local/bin
+fish_add_path -g $HOME/go/bin
 
 $HOME/bin/mise activate fish | source
 zoxide init fish | source
