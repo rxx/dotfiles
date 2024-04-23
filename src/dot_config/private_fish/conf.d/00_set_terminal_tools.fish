@@ -34,6 +34,9 @@ abbr -a "...." "cd ../../.."
 
 fish_add_path -g $HOME/.local/bin
 fish_add_path -g $HOME/go/bin
+fish_add_path -g -p $HOME/flutter/bin
+fish_add_path -g $HOME/android-studio/bin
+fish_add_path -g $HOME/Android/Sdk/cmdline-tools/latest/bin
 
 $HOME/bin/mise activate fish | source
 zoxide init fish | source

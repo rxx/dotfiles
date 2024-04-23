@@ -102,7 +102,7 @@ alias ....='cd ../../..'
 # Zoxide setup (assuming you've installed zoxide)
 eval "$(zoxide init zsh)" 
 
-export PATH="$HOME/.cargo/bin:$HOME/.local/bin:$PATH"   # Add local bin to PATH
+export PATH="$HOME/go/bin:$HOME/.cargo/bin:$HOME/.local/bin:$PATH"   # Add local bin to PATH
 
 eval "$(~/bin/mise activate zsh)"
 
@@ -110,3 +110,5 @@ export PNPM_HOME="$HOME/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH" 
 
 eval "$(starship init zsh)"
+export PATH="$PATH:$HOME/flutter/bin"
+export PATH="$PATH:$HOME/Android/Sdk/cmdline-tools/latest/bin/"

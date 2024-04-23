@@ -1,4 +1,3 @@
-
 export EDITOR='nvim'
 alias vim="nvim"
 alias vi="nvim"
@@ -34,14 +33,17 @@ alias gup="git pull --rebase"
 
 alias dni="sudo dnf install -y"
 
+export PATH="$HOME/go/bin:$HOME/.cargo/bin:$HOME/.local/bin:$PATH" # Add local bin to PATH
 eval "$(~/bin/mise activate bash)"
 
 # pnpm
 export PNPM_HOME="/home/user/.local/share/pnpm"
 case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
+*":$PNPM_HOME:"*) ;;
+*) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
 
 eval "$(starship init bash)"
+export PATH="$PATH:$HOME/flutter/bin"
+export PATH="$PATH:$HOME/Android/Sdk/cmdline-tools/latest/bin/"

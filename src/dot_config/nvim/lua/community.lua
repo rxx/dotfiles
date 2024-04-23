@@ -16,5 +16,10 @@ return {
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.toml" },
+  { import = "astrocommunity.pack.dart" },
+  { import = "astrocommunity.pack.just" },
+  { import = "astrocommunity.pack.kotlin" },
+  { import = "astrocommunity.pack.zig" },
   { import = "astrocommunity.editing-support.nvim-treesitter-endwise" },
+  { import = "astrocommunity.utility.mason-tool-installer-nvim" },
 }
